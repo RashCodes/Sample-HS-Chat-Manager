@@ -1,0 +1,52 @@
+[
+    {
+        "tag":"1",
+        "paymentdate": "1/1/2022",
+        "principle": "2083.33",
+        "profit": "41.67",
+        "penalties": "0",
+        "financingbalance": "23375",
+        "status": "Paid",
+        "daysdelayed": "0"
+    },
+    {
+        "tag":"2",
+        "paymentdate": "2/2/2022",
+        "principle": "2083.33",
+        "profit": "41.67",
+        "penalties": "0",
+        "financingbalance": "21250",
+        "status": "Paid",
+        "daysdelayed": "0"
+    },
+    {
+        "tag":"3",
+        "paymentdate": "1/3/2022",
+        "principle": "2083.33",
+        "profit": "41.67",
+        "penalties": "0",
+        "financingbalance": "19125",
+        "status": "Paid",
+        "daysdelayed": "0"
+    },
+    {
+        "tag":"4",
+        "paymentdate": "6/4/2022",
+        "principle": "2083.33",
+        "profit": "41.67",
+        "penalties": "0",
+        "financingbalance": "17000",
+        "status": "Paid",
+        "daysdelayed": "0"
+    },
+    {
+        "tag":"5",
+        "paymentdate": "11/5/2022",
+        "principle": "2083.33",
+        "profit": "41.67",
+        "penalties": "0",
+        "financingbalance": "14875",
+        "status": "Paid",
+        "daysdelayed": "0"
+    }
+]

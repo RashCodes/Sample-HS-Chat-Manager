@@ -1,0 +1,230 @@
+/* 
+.main{
+    
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    
+} */
+
+.mainpb {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+/* ul{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 10%;
+} */
+
+.ulpb {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 10%;
+}
+
+.ulpb .lipbinner{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    
+} */
+ul li .icon{
+    font-size: 45px;
+    color: #6d83e2;
+    margin: 0 60px;
+}
+ul li .text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-left: 50px;
+    
+}
+
+ul li .progress{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: #ffec00; */
+    background-color: #fffb00;
+    margin: 20px 0;
+    margin-left: 50px;
+    display: grid;
+    place-items: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    cursor: pointer;
+    transition: 500ms;
+}
+.progress::after{
+    z-index: 2;
+    content: " ";
+    position: absolute;
+    width: 150px;
+    height: 4.5px;
+    background-color: #000000;
+    transition: 500ms;
+    right: 50px;
+    
+}
+.one::after{
+    width: 0;
+    height: 0;
+}
+ul li .progress .uil{
+    display: none;
+    
+}
+ul li .progress p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}
+
+/* Active Css  */
+
+ul li .active{
+    /* background-color: #00D200; */
+    background-color: #00a800;
+    border-radius: 20%;
+    transition: 500ms;
+    display: grid;
+    place-items: center;
+    color:#000000;
+}
+li .active::after{
+    
+    /* background-color: #00D200; */
+    background-color: #00a800;
+    transition: 500ms;
+}
+ul li .active p{
+    display: none;
+    
+}
+ul li .active .uil{
+    font-size: 20px;
+    display: flex;
+    
+}
+
+/* Responsive Css  */
+
+@media (max-width: 800px) {
+
+    .progress::after{
+        z-index: 2;
+        content: " ";
+        position: absolute;
+        width: 0px;
+        height: 4.5px;
+        background-color: #000000;
+        transition: 500ms;
+        right: 30px;
+        
+    }
+    
+}
+
+@media (min-width: 2000px)  {
+    .ulpb  {
+        margin-left: 25%;
+    }
+    
+    
+}
+
+@media (min-width: 1100px)  {
+    .ulpb  {
+            margin-left: 20%;
+        }
+        
+        
+    }
+
+@media (min-width: 900px)  {
+    .ulpb  {
+            margin-left: -5%;
+        }
+        
+    }
+
+    @media (min-width: 1200px)  {
+    .ulpb  {
+                margin-left: 12%;
+            }
+            
+        }
+
+
+
+
+@media (min-width: 1200px)  {
+    .ulpb  {
+            margin-left: -10px;
+        }
+        nav ul{
+            width: 200%;
+        }
+        
+    }
+
+    @media (min-width: 1300px)  {
+        .ulpb  {
+                margin-left: 11%;
+            }
+        }
+
+        
+        @media (min-width: 1910px)  {
+            .ulpb  {
+                    margin-left: 25%;
+                }
+                
+                
+            }
+            @media (min-width: 1810px)  {
+                .ulpb  {
+                        margin-left: 20%;
+                    }
+                    
+                    
+                }
+                @media (min-width: 4500px)  {
+                    .ulpb  {
+                            margin-left: 40%;
+                        }
+                        
+                        
+                    }
+                    @media (min-width: 3000px)  {
+                        .ulpb  {
+                                margin-left: 35%;
+                            }
+                            
+                            
+                        }
+                        @media (min-width: 2500px)  {
+                            .ulpb  {
+                                    margin-left: 30%;
+                                }
+                                
+                                
+                            }
