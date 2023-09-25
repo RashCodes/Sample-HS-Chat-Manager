@@ -1,0 +1,1 @@
+# Sample-HS-Chat-Manager
