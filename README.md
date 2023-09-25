@@ -1,3 +1,13 @@
+# Sample-HS-Chat Manager
+- Dashboard
+- Chat Manager
+- Broadcast Messages
+
+Created by Raect.js & SCSS
+
+- Feel free to check it out! Do not forget to install the node_modules first and open the terminal npm run start.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
